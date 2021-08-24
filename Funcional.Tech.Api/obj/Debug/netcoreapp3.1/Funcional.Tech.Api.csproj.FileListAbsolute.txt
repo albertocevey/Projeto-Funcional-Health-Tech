@@ -195,4 +195,4 @@ E:\workspace\Projeto FuncionalTechHealth\Funcional.Tech.Api\obj\Debug\netcoreapp
 E:\workspace\Projeto FuncionalTechHealth\Funcional.Tech.Api\obj\Debug\netcoreapp3.1\staticwebassets\Funcional.Tech.Api.StaticWebAssets.Manifest.cache
 E:\workspace\Projeto FuncionalTechHealth\Funcional.Tech.Api\obj\Debug\netcoreapp3.1\staticwebassets\Funcional.Tech.Api.StaticWebAssets.xml
 E:\workspace\Projeto FuncionalTechHealth\Funcional.Tech.Api\obj\Debug\netcoreapp3.1\Funcional.Tech.Api.genruntimeconfig.cache
-E:\workspace\Projeto FuncionalTechHealth\Funcional.Tech.Api\obj\Debug\netcoreapp3.1\Funcional.Tech.Api.csproj.AssemblyReference.cache
+E:\workspace\Projeto FuncionalTechHealth\Funcional.Tech.Api\obj\Debug\netcoreapp3.1\Funcional.Tech.Api.csprojAssemblyReference.cache

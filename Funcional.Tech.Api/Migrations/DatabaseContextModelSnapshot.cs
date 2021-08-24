@@ -29,9 +29,6 @@ namespace Funcional.Tech.Api.Migrations
                     b.Property<int>("conta")
                         .HasColumnType("integer");
 
-                    b.Property<string>("contanum")
-                        .HasColumnType("text");
-
                     b.Property<DateTime?>("data_criacao")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp without time zone")

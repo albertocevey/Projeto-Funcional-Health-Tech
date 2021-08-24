@@ -81,7 +81,10 @@ namespace Funcional.Tech.Api
                     serviceScope.ServiceProvider.GetRequiredService<DatabaseContext>().Database.Migrate();
                 }
             }
-
+            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                serviceScope.ServiceProvider.GetRequiredService<DatabaseContext>().Database.Migrate();
+            }
             app.UseCors(builder =>
                builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
