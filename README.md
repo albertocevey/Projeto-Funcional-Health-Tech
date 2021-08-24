@@ -20,7 +20,7 @@ Conforme imagem:
 
 <img src="Images\passo-2.jpg" />
 
-3 - Agora no navegador acessar o seguinte endereço: http://localhost:5000/ui/playground
+3 - No navegador acessar o seguinte endereço: http://localhost:5000/ui/playground
 
 4 - Agora basta executar as seguintes Mutation ou Query:
 
