@@ -1,6 +1,6 @@
 <h1>Introdução</h1>
 
-Projeto de teste para empresta Funcional Health Tech.
+Projeto de teste para a empresa **Funcional Health Tech**.
 
 Conforme solicitado foi desenvolvido utilizando linguagem C#.
 A arquitetura utilizada para a API foi a GraphQL.
@@ -10,7 +10,7 @@ A seguir as instruções para poder executar o projeto.
 
 1 - Abrir a pasta do projeto e na pasta principal, onde se encontra o arquivo da solução do projeto, abrir o terminal para executar o seguinte comando: docker-compose up -d
 
-Isso vai fazer com que ele crie a base de dados no Docker no formato Postgres.
+Isso vai fazer com que ele crie a base de dados no Docker.
 
 Conforme imagem:
 
@@ -95,3 +95,4 @@ query saldo{
   }
 ```
 
+Fonte: https://github.com/killjoy2013/graphql-net-core-api-starter
