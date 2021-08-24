@@ -14,11 +14,11 @@ Isso vai fazer com que ele crie a base de dados no Docker no formato Postgres.
 
 Conforme imagem:
 
-<img src="..\Projeto FuncionalTechHealth\Images\passo-1.jpg" />
+<img src="Images\passo-1.jpg" />
 
 2 - Para executar o projeto, abrir a pasta AppFuncional, dentro vai ter um arquivo chamado Funcional.Tech.Api.exe, executando ele irá abrir a seguinte janela:
 
-<img src="..\Projeto FuncionalTechHealth\Images\passo-2.jpg" />
+<img src="Images\passo-2.jpg" />
 
 3 - Agora no navegador acessar o seguinte endereço: http://localhost:5000/ui/playground
 
