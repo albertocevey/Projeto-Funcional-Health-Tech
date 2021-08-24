@@ -39,12 +39,15 @@ No lugar de **numero da conta** e **saldo da conta** digitar um valor qualquer.
 
 **Para deletar uma conta :**
 
+```
 mutation deletar{
   deletar(conta: numero da conta)
 }
+```
 
 **Para sacar um valor da conta:**
 
+```
 mutation sacar {
   sacar(conta: numero da conta, valor: valor a retirar)
   {
@@ -52,12 +55,14 @@ mutation sacar {
     saldo
   }
 }
+```
 
 Caso o numero da conta não exista ele ira retornar um erro informando que não existe esta conta.
 Caso o valor a retirar for maior que o disponível no saldo ele vai informar que o valor e maior que o saldo.
 
 **Para depositar um valor na conta:**
 
+```
 mutation depositar{
   depositar(conta: **numero da conta**, valor: **valor depositar**)
   {
@@ -65,23 +70,28 @@ mutation depositar{
     saldo
   }
 }
+```
 
 **Para verificar o saldo de todas as contas :**
 
- query saldo{
+```
+query saldo{
   saldo
   {
     conta
     saldo
   }
 }
+```
 
 **Para verificar saldo de uma conta especifica:**
 
- query saldo{
+```
+query saldo{
   saldo(conta: **numero da conta**)
   {
     conta
     saldo
   }
+```
 
