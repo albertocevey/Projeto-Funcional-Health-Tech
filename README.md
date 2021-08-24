@@ -26,12 +26,12 @@ Conforme imagem:
 
 **Para adicionar uma conta utilizar a seguinte mutation:**
 
-mutation addConta {
-  addConta(conta: **numero da conta**, saldo: **saldo da conta**){
-    conta
-    saldo
-  }
-}
+`mutation addConta {`
+  `addConta(conta: **numero da conta**, saldo: **saldo da conta**){`
+    `conta`
+    `saldo`
+  `}`
+`}`
 
 No lugar de **numero da conta** e **saldo da conta** digitar um valor qualquer.
 
